@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     padding: 10,
     marginVertical: 8,
-    backgroundColor: "#fff",
+    backgroundColor: colors.WHITE,
   },
   eventImage: {
     width: 100,
@@ -57,18 +57,17 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: fonts.SFPROBOLD,
     marginBottom: 5,
-    color: "#333",
+    color: colors.HEAVY_TEXT,
   },
   eventHost: {
     fontFamily: fonts.SFPROBOLD,
     fontSize: 14,
-    color: "#666",
+    color: colors.MEDIUM_TEXT,
   },
   eventLocation: {
     fontSize: 14,
     fontFamily: fonts.SFPRO,
-
-    color: "#888",
+    color: colors.LIGHT_TEXT,
     marginBottom: 5,
   },
 });

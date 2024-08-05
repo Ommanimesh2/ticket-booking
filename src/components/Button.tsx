@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
   appButtonText: {
     fontSize: 16,
-    color: "#fff",
+    color: colors.WHITE,
     fontWeight: "400",
     fontFamily: fonts.SFPRO,
     alignSelf: "center",

@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     fontFamily: fonts.SFPROBOLD,
-    color: "white",
+    color: colors.WHITE,
   },
   iconButton: {
     padding: 8,
@@ -85,10 +85,10 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "rgba(0, 0, 0, 0.5)",
+    backgroundColor: colors.OVERLAY,
   },
   modalContent: {
-    backgroundColor: "white",
+    backgroundColor: colors.WHITE,
     borderRadius: 10,
     padding: 20,
     alignItems: "center",
@@ -98,6 +98,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: fonts.SFPROBOLD,
     marginBottom: 10,
+    color: colors.HEAVY_TEXT,
   },
   picker: {
     width: "100%",
@@ -110,7 +111,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   modalButtonText: {
-    color: "white",
+    color: colors.WHITE,
     fontFamily: fonts.SFPRO,
     fontSize: 16,
   },

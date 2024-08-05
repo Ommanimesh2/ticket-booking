@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
   },
   optionButton: {
     width: "100%",
-    backgroundColor: "white",
+    backgroundColor: colors.TRANSPARENT,
     padding: 20,
     rowGap: 15,
     borderRadius: 5,
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 20,
     fontFamily: fonts.SFPRO,
-    color: "#8D86FE",
+    color: colors.TEXT,
   },
   optionIcon: {
     position: "absolute",
@@ -225,15 +225,15 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontFamily: fonts.SFPROBOLD,
     marginBottom: 20,
-    color: "black",
+    color: colors.BLACK,
   },
   input: {
     padding: 10,
     fontSize: 26,
     marginBottom: 20,
     fontFamily: fonts.SFPROMEDIUM,
-    color: "#6C63FF",
-    backgroundColor: "transparent",
+    color: colors.PRIMARY,
+    backgroundColor: colors.TRANSPARENT,
   },
   booleanContainer: {
     flexDirection: "column",
@@ -242,7 +242,7 @@ const styles = StyleSheet.create({
   },
   booleanButton: {
     width: "48%",
-    backgroundColor: "white",
+    backgroundColor: colors.TRANSPARENT,
     padding: 20,
     borderRadius: 5,
     flexDirection: "row",
@@ -250,16 +250,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   selectedBooleanButton: {
-    backgroundColor: "#e0e0e0",
+    backgroundColor: colors.SELECTED_OPTION,
   },
   booleanButtonText: {
     fontSize: 20,
     fontFamily: fonts.SFPRO,
-    color: "#8D86FE",
+    color: colors.TEXT,
   },
   booleanIcon: {
     marginLeft: 10,
   },
 });
-
 export default QuestionsComponent;

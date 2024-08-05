@@ -249,7 +249,7 @@ const styles = StyleSheet.create({
   itemContentSubHead: {
     fontSize: 12,
     fontFamily: fonts.SFPROMEDIUM,
-    color: "gray",
+    color: colors.GRAY,
   },
   itemContentHead: {
     fontSize: 16,
@@ -280,23 +280,23 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 26,
     fontFamily: fonts.SFPROBOLD,
-    color: "black",
+    color: colors.BLACK,
   },
   about: {
     fontSize: 18,
     fontFamily: fonts.SFPROBOLD,
     marginVertical: 10,
-    color: "black",
+    color: colors.BLACK,
   },
   aboutContent: {
     fontSize: 16,
     fontFamily: fonts.SFPRO,
     marginVertical: 10,
-    color: "black",
+    color: colors.BLACK,
   },
   bookingDetail: {
     fontSize: 14,
-    color: "#101318",
+    color: colors.DETAIL_TEXT,
     marginVertical: 5,
   },
   fixedBottomSection: {

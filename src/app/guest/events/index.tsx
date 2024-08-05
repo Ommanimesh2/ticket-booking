@@ -6,6 +6,7 @@ import { currentEventIdState } from "../state/currentEventIdState";
 import EventCard from "@/components/EventCard";
 import { fonts } from "@/constants/fonts";
 import Toast from "react-native-root-toast";
+import { colors } from "@/constants/colors";
 
 export default function Events() {
   const events = useRecoilValue(eventsQuery);
@@ -24,11 +25,10 @@ export default function Events() {
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f2f2f2",
+    backgroundColor: colors.BACKGROUND,
     padding: 10,
   },
   header: {
